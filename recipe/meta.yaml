@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-secretsmanager" %}
-{% set version = "1.26.89" %}
+{% set version = "1.28.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-secretsmanager-{{ version }}.tar.gz
-  sha256: 4e08ec1ae81229fb20e16af40004923f86f6fe119fa7730edb289cd851fa9e55
+  sha256: ee2341a09370209b9ed5d96488baf831b1487c931f420fa5f9cf4a18b2e46311
 
 build:
   noarch: python
